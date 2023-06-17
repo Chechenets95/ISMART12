@@ -1,0 +1,249 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif; /* изменение шрифта */
+	color: #333; /* изменение цвета текста */
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* Стили для шапки */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-weight: bold;
+  }
+  /* анимация при наведении на кнопку */
+.header-menu-item:hover {
+    transform: scale(0.9); /* увеличение размера кнопки на 10% */
+    transition: all 0.3s ease-in-out; /* плавное изменение свойств за 0.3 секунды */
+  }
+  header .logo {
+    font-family: 'Montserrat', sans-serif; /* здесь можно заменить 'Montserrat', sans-serif на другой шрифт */
+    font-size: 30px; /* здесь можно изменить размер шрифта */
+    color: #ffffff; /* здесь можно заменить #ff6600 на любой другой цвет */
+    text-decoration: none;
+    text-align: center;
+  }  
+  .header-menu-item {
+        display: flex;
+        position: fixed;
+        justify-content: center; /* центрирует содержимое по горизонтали */
+        align-items: center; /* центрирует содержимое по вертикали */
+  }
+
+ header {
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Здесь указываем порядок слоя элементов */
+ }
+ .header-menu-item ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .header-menu-item li{
+    margin: 0;
+    padding: 0;
+  }
+  .header-menu-item li a{
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+  }
+  .header-menu-item:active {
+    transform: scale(0.9); /* уменьшение размера кнопки на 10% */
+    transition: all 0.3s ease-in-out; /* плавное изменение свойств за 0.3 секунды */
+  } 
+
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+  }
+  
+  /* Стили для центральных блоков */
+ 
+  h1, h2, h3 {
+    color: #333;
+  }
+  /* Стили для подвала */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+ul li a{
+    text-align: center;
+}
+.about-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .about-text {
+    text-align: justify;
+    text-indent: 40px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .container {
+    padding: 50px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  
+  @media (max-width: 768px) {
+    .col-md-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  .reviews {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .reviews h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .review-card {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .review-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .review-text h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .review-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  #about-us {
+    background-color: #f8f8f8;
+    padding: 80px 0;
+  }
+  #about-us {
+  background-color: #f8f8f8;
+  padding: 80px 0;
+}
+
+
+#about-us ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#about-us ul li {
+  font-size: 20px;
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+#about-us .team {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  #about-us .team {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+ 
+}
+
+  #about-us .team {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+ 
+ 
+  
+  @media (max-width: 767px) {
+    #about-us .team {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+  }
+  .team img{
+    position: absolute;
+    top: 1600px;
+    padding-bottom: 20px;
+    left: 1150px;
+    width: 550px;
+    height: 350px;
+  }

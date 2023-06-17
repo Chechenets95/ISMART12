@@ -1,0 +1,181 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif; /* изменение шрифта */
+	color: #333; /* изменение цвета текста */
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* Стили для шапки */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Здесь указываем порядок слоя элементов */
+  }
+  
+  header .logo {
+    font-family: 'Montserrat', sans-serif; /* здесь можно заменить 'Montserrat', sans-serif на другой шрифт */
+    font-size: 30px; /* здесь можно изменить размер шрифта */
+    color: #ffffff; /* здесь можно заменить #ff6600 на любой другой цвет */
+    text-decoration: none;
+    text-align: center;
+  }  
+  .header-menu-item {
+    display: flex;
+    justify-content: center; /* центрирует содержимое по горизонтали */
+    align-items: center; /* центрирует содержимое по вертикали */
+}
+  .header-menu-item:hover {
+    transform: scale(0.9); /* увеличение размера кнопки на 10% */
+    transition: all 0.5s ease-in-out; /* плавное изменение свойств за 0.3 секунды */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+  }
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+  }
+  
+  ul {
+    list-style: none;
+    margin-bottom: 1.5rem;
+    padding-left: 0;
+  }
+  
+  li {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+  
+  a {
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  
+
+  .registration-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .registration-title {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 50px;
+  }
+  
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registration-form label {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .registration-form input,
+  .registration-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .registration-form input:focus,
+  .registration-form textarea:focus {
+    outline: none;
+    border-color: #666;
+  }
+  
+  .registration-checkbox {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .registration-checkbox label {
+    margin-left: 5px;
+  }
+  
+  .registration-checkbox a {
+    color: #333;
+  }
+  
+  .registration-checkbox a:hover {
+    text-decoration: underline;
+  }
+  
+  .registration-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .registration-form input[type="submit"]:hover {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+  }
+  
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }

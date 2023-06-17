@@ -1,0 +1,200 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif; /* изменение шрифта */
+	color: #333; /* изменение цвета текста */
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* Стили для шапки */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Здесь указываем порядок слоя элементов */
+  }
+  
+  header .logo {
+    font-family: 'Montserrat', sans-serif; /* здесь можно заменить 'Montserrat', sans-serif на другой шрифт */
+    font-size: 30px; /* здесь можно изменить размер шрифта */
+    color: #ffffff; /* здесь можно заменить #ff6600 на любой другой цвет */
+    text-decoration: none;
+    text-align: center;
+  }  
+  .header-menu-item {
+    display: flex;
+    justify-content: center; /* центрирует содержимое по горизонтали */
+    align-items: center; /* центрирует содержимое по вертикали */
+}
+  .header-menu-item:hover {
+    transform: scale(0.9); /* увеличение размера кнопки на 10% */
+    transition: all 0.5s ease-in-out; /* плавное изменение свойств за 0.3 секунды */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+  }
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+  }
+  
+  ul {
+    list-style: none;
+    margin-bottom: 1.5rem;
+    padding-left: 0;
+  }
+  
+  li {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+  
+  a {
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+ 
+
+  .login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    overflow: hidden;
+  }
+  
+  .login-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .login-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #888;
+  }
+  
+  .login-form input[type="email"],
+  .login-form input[type="password"] {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    color: #555;
+    background-color: #f2f2f2;
+  }
+  
+  .login-form input[type="submit"] {
+    width: 100%;
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-form input[type="submit"]:hover {
+    background-color: #2c3e50;
+  }
+  
+  .login-checkbox {
+    text-align: left;
+    margin-bottom: 20px;
+    color: #888;
+  }
+  
+  .login-checkbox input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  .login-links {
+    margin-top: 20px;
+  }
+  
+  .login-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #888;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .login-links a:hover {
+    color: #555;
+  }
+  
+  /* CSS анимация */
+  .login-form {
+    animation: slideIn 1s forwards;
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  
+  
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }

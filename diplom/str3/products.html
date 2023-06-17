@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ISMART - Каталог</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+
+  </head>
+  <body>
+    <header class="header-menu-item">
+      <nav>
+        <ul>
+          <li><a href="../str1/index.html">Главная</a></li>
+          <li><a href="../str3/products.html">Каталог</a></li>
+          <li><a href="../str2/about.html">О нас</a></li>
+          <li><a href="../str4/support_form.html">Поддержка</a></li>
+          <li><a href="../str6/vhod.html">Вход</a></li>
+          <li><a href="../str5/reg.html">Зарегистрироваться</a></li>
+        </ul>
+      </nav>
+      <h1 class="logo">iSmart</a></h1>
+      <div class="auth-form-container">
+        <form id="login-form" class="auth-form" style="display:none;">
+          <h3>Вход</h3>
+          <input type="email" id="login-email" placeholder="Электронная почта" required>
+          <input type="password" id="login-password" placeholder="Пароль" required>
+          <button type="submit">Войти</button>
+        </form>
+        <form id="signup-form" class="auth-form" style="display:none;">
+          <h3>Регистрация</h3>
+          <input type="text" id="signup-name" placeholder="Имя" required>
+          <input type="email" id="signup-email" placeholder="Электронная почта" required>
+          <input type="password" id="signup-password" placeholder="Пароль" required>
+          <button type="submit">Зарегистрироваться</button>
+        </form>
+      </div>
+    </header>
+    
+    <main>
+        <form id="search-form">
+        <input type="text" id="search" placeholder="Поиск по каталогу...">
+        
+        <button class="search-button"><i class="fa fa-search">Найти</i></button>
+        </form>
+
+        <div class="catalog">
+            <h2 class="h2catalog">Каталог</h2>
+            <div class="product">
+              <img src="https://static.re-store.ru/upload/resize_cache/iblock/7f7/100500_800_140cd750bba9870f18aada2478b24840a/wn2y1d001opd1pyoba496cb3e14gbrlf.jpeg" alt="Product 1">
+              <h3>iPhone 14</h3>
+              <p>Apple iPhone 14 Plus SIM 512 ГБ, желтый</p>
+              <p>Цена: 109 990 рублей</p>
+              <button class="add-to-cart"><a href="../f.protucts/f.pr.html">Купить</a></button>
+            </div>
+            <div class="product">
+              <img src="https://static.re-store.ru/upload/resize_cache/iblock/33e/100500_800_140cd750bba9870f18aada2478b24840a/33e334980a40048e05b9cb0bd18eeb99.jpeg" alt="Product 2">
+              <h3>iPhone 13</h3>
+              <p>Apple iPhone 13, 512 ГБ, (PRODUCT)RED</p>
+              <p>Цена: 99 990 рублей</p>
+              <button class="add-to-cart"><a href="../f.protucts/f.pr.html">Купить</a></button>
+            </div>
+            <div class="product">
+                <img src="https://static.re-store.ru/upload/resize_cache/iblock/a14/100500_800_140cd750bba9870f18aada2478b24840a/a14a991797fe13f38fe9946f6a0b77d3.jpg" alt="Product 2">
+                <h3>iPhone 11</h3>
+                <p>Apple iPhone 11, 128 ГБ, черный (новая комплектация)</p>
+                <p>Цена: 49 990 рублей</p>
+                <button class="add-to-cart"><a href="../f.protucts/f.pr.html">Купить</a></button>
+              </div>
+              <div class="product">
+                <img src="https://static.re-store.ru/upload/resize_cache/iblock/99c/100500_800_140cd750bba9870f18aada2478b24840a/99cfca91b609380399dfa1bb2b26cb57.jpg" alt="Product 2">
+                <h3>iPhone 12</h3>
+                <p>Apple iPhone 12, 128 ГБ, фиолетовый</p>
+                <p>Цена: 65 990 рублей</p>
+                <button class="add-to-cart"><a href="../f.protucts/f.pr.html">Купить</a></button>
+              </div>
+              <div class="product">
+                <img src="https://static.re-store.ru/upload/resize_cache/iblock/127/100500_800_140cd750bba9870f18aada2478b24840a/127aa88036a921e35e58c54cad929d90.jpeg" alt="Product 2">
+                <h3>iPhone 14 Pro</h3>
+                <p>Apple iPhone 14 Pro eSIM 1 ТБ, серебристый</p>
+                <p>Цена: 164 990 рублей</p>
+                <button class="add-to-cart"><a href="../f.protucts/f.pr.html">Купить</a></button>
+              </div>
+              <div class="product">
+                <img src="https://static.re-store.ru/upload/resize_cache/iblock/81c/100500_800_140cd750bba9870f18aada2478b24840a/81c9dec4a635089a852179fec11c8c4e.jpg" alt="Product 2">
+                <h3>iPhone 13 mini</h3>
+                <p>Apple iPhone 13 mini, 128 ГБ, зеленый</p>
+                <p>Цена: 63 990 рублей</p>
+                <button class="add-to-cart"><a href="../f.protucts/f.pr.html">Купить</a></button>
+              </div>
+              <div class="product">
+                <img src="https://static.re-store.ru/upload/resize_cache/iblock/b02/100500_800_140cd750bba9870f18aada2478b24840a/b026f2ead1bdaa3d110f045e9d467b48.jpg" alt="Product 2">
+                <h3>iPhone SE</h3>
+                <p>Apple iPhone SE, 64 ГБ, «тёмная ночь»</p>
+                <p>Цена: 45 990 рублей</p>
+                <button class="add-to-cart"><a href="../f.protucts/f.pr.html">Купить</a></button>
+              </div>
+              <div class="product">
+                <img src="https://static.re-store.ru/upload/resize_cache/iblock/d8b/100500_800_140cd750bba9870f18aada2478b24840a/d8bcf912d251d673d056b55ec103367c.jpg" alt="Product 2">
+                <h3>iPhone 12</h3>
+                <p>Apple iPhone 12, 64 ГБ, зеленый</p>
+                <p>Цена: 59 990 рублей</p>
+                <button class="add-to-cart"><a href="../f.protucts/f.pr.html">Купить</a></button>
+              </div>
+              <div class="product">
+                <img src="https://static.re-store.ru/upload/resize_cache/iblock/f17/100500_800_140cd750bba9870f18aada2478b24840a/f177b647546ab9bda8707b4f9e70d5e6.jpg" alt="Product 2">
+                <h3>iPhone 11</h3>
+                <p>Apple iPhone 11, 64 ГБ, белый (новая комплектация)</p>
+                <p>Цена: 45 990 рублей</p>
+                <button class="add-to-cart"><a href="../f.protucts/f.pr.html">Купить</button>
+              </div>
+              <div class="product">
+                <img src="https://static.re-store.ru/upload/resize_cache/iblock/086/100500_800_140cd750bba9870f18aada2478b24840a/086ef960f87de9ba26904c37f0e53f82.jpeg" alt="Product 2">
+                <h3>iPhone 14 Plus</h3>
+                <p>Apple iPhone 14 Plus SIM 128 ГБ, голубой</p>
+                <p>Цена: 89 990 рублей</p>
+                <button class="add-to-cart"><a href="../f.protucts/f.pr.html">Купить</a></button>
+              </div>
+          </div>
+          
+      
+    </main>
+    
+    <footer>
+      <p>&copy; iSmart 2023</p>
+    </footer>
+  </body>
+</html>

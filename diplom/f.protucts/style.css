@@ -1,0 +1,150 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif; /* изменение шрифта */
+	color: #333; /* изменение цвета текста */
+}
+/* Стили для шапки */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  .header-menu-item{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Здесь указываем порядок слоя элементов */
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-weight: bold;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+  }
+  footer {
+    margin-bottom: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  .header-logo a {
+    font-family: 'Montserrat', sans-serif; /* здесь можно заменить 'Montserrat', sans-serif на другой шрифт */
+    font-size: 30px; /* здесь можно изменить размер шрифта */
+    color: #ffffff; /* здесь можно заменить #ff6600 на любой другой цвет */
+    text-decoration: none;
+  }
+  .header-logo{
+    text-align: center;
+  }
+  .header-menu-item ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .header-menu-item li{
+    margin: 0;
+    padding: 0;
+  }
+  .header-menu-item li a{
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+  }
+  .header-menu-item:active {
+    transform: scale(0.9); /* уменьшение размера кнопки на 10% */
+    transition: all 0.3s ease-in-out; /* плавное изменение свойств за 0.3 секунды */
+  }
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .container {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 40%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0.6;
+  }
+  button[type="submit"]:hover{
+   opacity: 1;
+  }
+
+  footer p{
+    min-height: 100%;
+    display: flex;
+  flex-direction: column;
+  }
+  footer {
+    font-family: 'Open Sans', sans-serif; /* здесь можно заменить 'Open Sans', sans-serif на другой шрифт */
+    font-size: 14px; /* здесь можно изменить размер шрифта */
+    min-height: 100%;
+  }
+  footer:active{
+    transform: scale(0.9); /* уменьшение размера кнопки на 10% */
+    transition: all 0.3s ease-in-out; /* плавное изменение свойств за 0.3 секунды */
+  }
