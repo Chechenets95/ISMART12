@@ -82,7 +82,9 @@ header {
     margin: 0 auto;
     text-align: center;
   }
-  
+  .h2catalog{
+    margin: 6%;
+  }
   .product {
     display: inline-block;
     width: 300px;
